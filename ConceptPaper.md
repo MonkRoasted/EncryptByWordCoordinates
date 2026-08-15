@@ -62,6 +62,8 @@ Each row represents one word's location. For example:
 - `word="fox"` → `pdf_no=2, page_no=5, line_no=3, word_no=7`
 - `word="jumps"` → `pdf_no=1, page_no=12, line_no=8, word_no=15`
 
+![Coordinates Explanation](./image.png)
+
 ### Why This Matters
 
 Traditional encryption uses mathematical keys that are abstract and uniform. Our system uses **content-based location coordinates**. A word like "fox" might appear in dozens of different PDFs and locations. This creates an enormous keyspace—each word in your message can be represented by *any of its locations* in the database.
